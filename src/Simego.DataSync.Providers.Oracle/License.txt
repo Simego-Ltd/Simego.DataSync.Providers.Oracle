@@ -1,0 +1,1 @@
+﻿See https://www.nuget.org/packages/Oracle.ManagedDataAccess/21.6.1/license for Oracle Driver License
