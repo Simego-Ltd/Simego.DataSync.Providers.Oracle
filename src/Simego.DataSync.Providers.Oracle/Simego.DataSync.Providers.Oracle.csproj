@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net472</TargetFramework>
+    <TargetFramework>net48</TargetFramework>
     <AssemblyTitle>Data Sync Oracle Connector</AssemblyTitle>
     <Product>Data Sync Oracle Connector</Product>
     <Copyright>Copyright © Simego Ltd 2022</Copyright>
@@ -8,8 +8,8 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Simego.DataSync">
-      <HintPath>..\..\3rdParty\Simego.DataSync.dll</HintPath>
+    <Reference Include="Simego.DataSync.Core">
+      <HintPath>..\..\3rdParty\Simego.DataSync.Core.dll</HintPath>
     </Reference>
     <Reference Include="Simego.DataSync.Providers.Ado">
       <HintPath>..\..\3rdParty\Simego.DataSync.Providers.Ado.dll</HintPath>
