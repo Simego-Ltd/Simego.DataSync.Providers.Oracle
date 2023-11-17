@@ -1,22 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net7.0-windows</TargetFramework>
-    <AssemblyTitle>Data Sync Oracle Connector</AssemblyTitle>
-    <Product>Data Sync Oracle Connector</Product>
-    <Copyright>Copyright © Simego Ltd 2022</Copyright>
-    <OutputPath>bin\$(Configuration)\</OutputPath>
-    <UseWindowsForms>true</UseWindowsForms>
-	  <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
-  </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="3.21.120" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="Simego.DataSync.Core">
-      <HintPath>..\..\3rdParty\Simego.DataSync.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Simego.DataSync.Providers.Ado">
-      <HintPath>..\..\3rdParty\Simego.DataSync.Providers.Ado.dll</HintPath>
-    </Reference>    
-  </ItemGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0-windows7.0</TargetFramework>
+		<AssemblyTitle>Data Sync Oracle Connector</AssemblyTitle>
+		<Product>Data Sync Oracle Connector</Product>
+		<Copyright>Copyright © Simego Ltd 2023</Copyright>
+		<Version>8.0.0.0</Version>
+		<OutputPath>bin\$(Configuration)\</OutputPath>
+		<UseWindowsForms>true</UseWindowsForms>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Oracle.ManagedDataAccess.Core" Version="3.21.120" />
+		<PackageReference Include="Simego.DataSync.Providers.Ado" Version="8.0.5310" />
+	</ItemGroup>	
 </Project>
