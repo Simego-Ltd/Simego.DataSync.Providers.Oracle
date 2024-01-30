@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32602.291
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simego.DataSync.Providers.Oracle", "Simego.DataSync.Providers.Oracle\Simego.DataSync.Providers.Oracle.csproj", "{B73F4B86-AA44-44AA-B1A9-959D914D9588}"
 EndProject
