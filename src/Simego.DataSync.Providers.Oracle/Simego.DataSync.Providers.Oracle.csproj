@@ -3,20 +3,22 @@
     <TargetFramework>net48</TargetFramework>
     <AssemblyTitle>Data Sync Oracle Connector</AssemblyTitle>
     <Product>Data Sync Oracle Connector</Product>
-    <Copyright>Copyright © Simego Ltd 2022</Copyright>
+    <Copyright>Copyright © Simego Ltd 2024</Copyright>
     <OutputPath>bin\$(Configuration)\</OutputPath>
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Simego.DataSync.Core">
       <HintPath>..\..\3rdParty\Simego.DataSync.Core.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Simego.DataSync.Providers.Ado">
       <HintPath>..\..\3rdParty\Simego.DataSync.Providers.Ado.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>  
   <ItemGroup>
-    <PackageReference Include="Oracle.ManagedDataAccess" Version="21.6.1" />
+    <PackageReference Include="Oracle.ManagedDataAccess" Version="21.13" />
   </ItemGroup>
 </Project>

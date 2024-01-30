@@ -8,7 +8,7 @@ using System.Reflection;
 
 namespace Simego.DataSync.Providers.Oracle
 {
-    [ProviderInfo(Name = "Oracle Managed Data Access (21.6.1)", Description = "Oracle .NET Framework Managed Data Access", Group = "SQL")]
+    [ProviderInfo(Name = "Oracle Managed Data Access (21.13)", Description = "Oracle .NET Framework Managed Data Access", Group = "SQL")]
     public class OracleDatasourceReader : AdoDataSourceReader
     {
         private Lazy<AdoDbProviderFactory> MyFactory => new Lazy<AdoDbProviderFactory>(() => new AdoDbProviderFactory("Oracle.ManagedDataAccess.Client", GetFactory()));
